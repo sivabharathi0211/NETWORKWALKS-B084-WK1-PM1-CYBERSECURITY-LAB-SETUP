@@ -39,6 +39,7 @@ Virtual Machine| Kali Linux
 1. Install the Required Tools
 
 Installed Oracle VirtualBox and 7-Zip to prepare the virtual lab environment.
+<img width="1225" height="681" alt="Screenshot 2026-10-27 151027" src="https://github.com/user-attachments/assets/baf7d632-2bf5-4403-b8e8-32477ef12866" />
 
 2. Create a NAT Network
 
@@ -48,6 +49,7 @@ Opened VirtualBox Network Manager and created a custom NAT Network with the foll
 - IPv4 Prefix: "10.0.0.0/24"
 - DHCP: Enabled
 - IPv6: Disabled
+  <img width="1359" height="718" alt="Screenshot 2026-10-29 194937" src="https://github.com/user-attachments/assets/24f27cd0-1192-41dd-8a8b-55ee6df400b1" />
 
 3. Connect Kali Linux to the NAT Network
 
@@ -55,6 +57,7 @@ Opened the Kali Linux VM settings and configured Adapter 1:
 
 - Attached to: NAT Network
 - Name: NatNetwork
+<img width="779" height="521" alt="image" src="https://github.com/user-attachments/assets/1b3de229-0975-4de7-b361-43e959876009" />
 
 4. Troubleshoot Network Connectivity
 
@@ -68,15 +71,20 @@ sudo nmcli connection down "Wired connection 1"
 
 sudo nmcli connection up "Wired connection 1"
 
+<img width="1366" height="643" alt="WhatsApp Image 2026-10-29 at 8 54 03 PM" src="https://github.com/user-attachments/assets/f30aeed8-8dda-479e-bdd1-08119c22065c" />
+
 5. Verify the IP Address
 
 Executed the following command to check the network interface and assigned IP address:
 
 ip addr
+<img width="1366" height="643" alt="WhatsApp Image 2026-10-29 at 9 03 47 PM" src="https://github.com/user-attachments/assets/8c4ffba3-a279-4833-a350-f3219f84afc6" />
+
 
 6. Check the Wired Connection
 
 Verified the wired network connection through Kali Linux Network Settings.
+<img width="1366" height="643" alt="WhatsApp Image 2026-10-29 at 9 32 00 PM" src="https://github.com/user-attachments/assets/08018826-e65b-4d1f-a9e7-517ba1996622" />
 
 📚 What I Learned
 
